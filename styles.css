@@ -1,0 +1,90 @@
+/* ======== ESTILOS GENERALES ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+header {
+    background: #1b263b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #415a77;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 3px 0;
+}
+
+/* ======== NAVEGACIÓN ======== */
+nav {
+    background: #415a77;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e0e1dd;
+}
+
+/* ======== SECCIONES ======== */
+section {
+    background: #fff;
+    margin: 25px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #1b263b;
+}
+
+/* ======== LISTAS Y TEXTO ======== */
+ul, ol {
+    margin: 15px 0;
+    padding-left: 25px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1b263b;
+    color: #fff;
+    margin-top: 40px;
+}
